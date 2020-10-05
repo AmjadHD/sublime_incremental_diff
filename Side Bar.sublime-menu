@@ -1,0 +1,3 @@
+[
+	{ "caption": "Set Reference Document", "command": "set_reference_document_from_file", "args": {"files": []} },
+]

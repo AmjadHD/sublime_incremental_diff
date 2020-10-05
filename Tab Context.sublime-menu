@@ -1,0 +1,4 @@
+[
+	{ "caption": "-", "command": "diff" },
+	{ "command": "set_reference_document", "args": {"group": -1, "index": -1} },
+]

@@ -1,0 +1,5 @@
+[
+	{ "caption": "-", "id": "diff" },
+    { "command": "toggle_all_diffs" },
+    { "command": "set_reference_document" },
+]
