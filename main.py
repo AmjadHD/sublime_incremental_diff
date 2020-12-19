@@ -61,6 +61,11 @@ class SetReferenceDocumentCommand(sublime_plugin.WindowCommand):
 		return view is not None and view.encoding() != "Hexadecimal"
 
 
+class ResetReferenceDocumentCommand(sublime_plugin.TextCommand):
+	def run(self, edit):
+		self.view.reset_reference_document()
+
+
 class SetReferenceDocumentFromFileCommand(sublime_plugin.WindowCommand):
 	base_view = None
 	ref_document = None

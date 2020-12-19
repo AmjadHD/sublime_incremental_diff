@@ -11,6 +11,8 @@ The plugin provides these commands:
 
 - `set_reference_document_from_file`: available in the Side Bar context menu, when exactly two files are selected, the file on which the menu is invoked will be opened if not already open, and the other file's contents will be used as a reference for incremental diff.
 
+- `reset_reference_document`: resets the reference document of the active view; you can bind it to a key, it's not bound by default.
+
 - `toggle_all_diffs`: bonus command, available in the context menu, shows/hides all diff hunks in the view.
 
 ## Installation
